@@ -96,6 +96,20 @@ main .card-header {
 #foot {
   margin-top: 0;
 }
+/*********************************************coordonnées****************************************/
+#formulaire, #both {
+  margin: auto;
+}
+
+#both {
+  padding: 0;
+}
+
+#maps {
+  height :200px;
+  overflow: hidden;
+}
+
 @media (min-width:540px){
 
 .carousel-item {
@@ -147,6 +161,10 @@ background-size: cover;
 .carousel-item:nth-child(3) {
   background-image: url(../img/711.1.jpg);
 background-size: cover;
+}
+
+#formulaire, #coordonnes{
+  margin-left: 45px;
 }
 
 
