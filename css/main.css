@@ -52,6 +52,13 @@ nav ul {
   margin: auto;
 }
 
+#myModal2 {
+  overflow: scroll;
+}
+
+#CDSWIDSSP {
+  margin: auto !important;
+}
 
 
 @media (min-width:540px){
@@ -64,20 +71,20 @@ nav ul {
 }
 
 .carousel-item:first-child {
-  background-image: url(../img/528.jpg);
+  background-image: url(../img/528.1.jpg);
   background-size: cover;
 
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url(../img/02.jpg);
+  background-image: url(../img/02.1.jpg);
 background-size: cover;
 background-position: center
 }
 
 
 .carousel-item:nth-child(3) {
-  background-image: url(../img/03.jpg);
+  background-image: url(../img/03.1.jpg);
 background-size: cover;
 
 }
@@ -91,19 +98,19 @@ background-size: cover;
 
 
 .carousel-item:first-child {
-  background-image: url(../img/701.jpg);
+  background-image: url(../img/701.1.jpg);
   background-size: cover;
 
 
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url(../img/709.jpg);
+  background-image: url(../img/709.1.jpg);
 background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url(../img/711.jpg);
+  background-image: url(../img/711.1.jpg);
 background-size: cover;
 }
 
