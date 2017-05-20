@@ -18,6 +18,8 @@
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
+     color: white;
+
  }
 
 /*
@@ -27,14 +29,20 @@
 
 
  #social-fb:hover {
-     color: #3B5998;
+
+color: #3B5998;
+
+
+
 
  }
  #social-tw:hover {
      color: #4099FF;
+
  }
  #social-gp:hover {
      color: #d34836;
+
  }
 
 
