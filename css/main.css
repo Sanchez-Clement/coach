@@ -105,6 +105,8 @@ main .card-header {
   margin: auto;
 }
 
+
+
 #formulaire {
   text-align: left;
 }
@@ -114,7 +116,7 @@ main .card-header {
 }
 
 #maps {
-  height :200px;
+  height :250px;
   overflow: hidden;
 }
 

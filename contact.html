@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>move your body</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@
       <!--Navbar-->
       <nav class="navbar navbar-toggleable-md navbar-dark green">
           <div class="container">
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx12" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx12" aria-controls="collapseEx12" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <a class="navbar-brand" href="index.html">Move your body</a>
@@ -57,7 +57,7 @@
 
 
               </div>
-          </div>
+
       </nav>
 <!-- ***********************************************************fin navbar********************************************************** -->
 </header>
@@ -70,54 +70,55 @@
 
 
   <!--Form with header-->
-  <div class="card mt-3 mb-3 col-10 col-lg-4" id="formulaire">
+  <form class="card mt-3 mb-3 col-10 col-lg-4" id="formulaire">
       <div class="card-block">
 
           <!--Header-->
-          <div class="form-header  purple darken-4">
+          <fieldset class="form-header  purple darken-4">
               <h3><i class="fa fa-user" aria-hidden="true"></i> Contact:</h3>
-          </div>
+          </fieldset>
 
           <!--Body-->
-          <div class="md-form">
+          <fieldset class="md-form">
               <i class="fa fa-envelope prefix"></i>
               <input type="text" id="form2" class="form-control">
               <label for="form2">e-mail</label>
-          </div>
+          </fieldset>
 
-          <div class="md-form">
+          <fieldset class="md-form">
                    <i class="fa fa-user prefix"></i>
-                   <input type="text" id="form3" class="form-control">
-                   <label for="form3">Nom</label>
-               </div>
+                   <input type="text" id="name" class="form-control">
+                   <label for="name">Nom</label>
+               </fieldset>
 
-          <div class="md-form">
+          <fieldset class="md-form">
               <i class="fa fa-male prefix"></i>
-              <input type="text" id="form4" class="form-control">
-              <label for="form4">Prénom</label>
-          </div>
-          <div class="md-form">
+              <input type="text" id="forname" class="form-control">
+              <label for="forname">Prénom</label>
+          </fieldset>
+          <fieldset class="md-form">
               <i class="fa fa-mobile prefix"></i>
-              <input type="text" id="form4" class="form-control">
-              <label for="form4">Numero</label>
-          </div>
+              <input type="text" id="phonenumber" class="form-control">
+              <label for="phonenumber">Numero</label>
+          </fieldset>
 
-          <div class="md-form">
+          <fieldset class="md-form">
      <i class="fa fa-tag prefix"></i>
-     <input type="text" id="form32" class="form-control">
-     <label for="form32">Sujet</label>
- </div>
+     <input type="text" id="subject" class="form-control">
+     <label for="subject">Sujet</label>
+ </fieldset>
 
-          <div class="md-form">
+          <fieldset class="md-form">
      <i class="fa fa-pencil prefix"></i>
-     <textarea type="text" id="form8" class="md-textarea"></textarea>
+     <textarea  id="form8" class="md-textarea"></textarea>
      <label for="form8">Texte</label>
- </div>
+ </fieldset>
 
 
-          <div class="text-center">
+          <fieldset class="text-center">
+
               <button class="btn btn-deep-purple">Envoyer</button>
-          </div>
+          </fieldset>
 
       </div>
 
@@ -131,16 +132,16 @@
         </div>
 
 
-  </div>
+  </form>
   <!--/Form with header-->
 
 
-<div class="col-10 col-lg-6" id="both">
+<section class="col-10 col-lg-6" id="both">
 
 
   <!--Form with header-->
-  <div class="card mt-3 mb-3" id="coordonnees">
-      <div class="card-block">
+  <article class="card mb-4 mt-3 card-block" id="coordonnees">
+
 
           <!--Header-->
           <div class="form-header  purple darken-4">
@@ -148,28 +149,20 @@
           </div>
 
           <!--Body-->
-          <div class="md-form">
-
-            <p><i class="fa fa-phone fa-2x mr-3"></i>03 20 91 11 11</p>
-          </div>
-          <div class="md-form">
-            <p><i class="fa fa-home fa-2x mr-3"></i>31 rue de la chausseée</p>
-            <p>59000 Lille</p>
-          </div>
-          <div class="md-form">
-            <p><i class="fa fa-envelope fa-2x mr-3"></i>moveyourbody@gmail.com</p>
-
-          </div>
 
 
-      </div>
+            <p class="md-form"><i class="fa fa-phone fa-2x mr-3"></i>03 20 91 11 11</p>
+            <p class="md-form"><i class="fa fa-home fa-2x mr-3"></i>31 rue de la chausseée</p>
+            <p class="md-form">59000 Lille</p>
+            <p class="md-form"><i class="fa fa-envelope fa-2x mr-3"></i>moveyourbody@gmail.com</p>
 
 
-  </div>
+
+  </article>
   <!--/Form with header-->
   <!--Form with header-->
-  <div class="card mt-3 mb-3">
-      <div class="card-block">
+  <article class="card mt-3 mb-3 card-block">
+
 
           <!--Header-->
           <div class="form-header  purple darken-4">
@@ -178,18 +171,18 @@
 
           <!--Body-->
           <div id="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.135517877829!2d3.055171615374435!3d50.643174279502446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32a7eca3fd0c3%3A0x983d5c6fb3850eeb!2s31+Rue+Voltaire%2C+59800+Lille!5e0!3m2!1sfr!2sfr!4v1495194510195" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.135517877829!2d3.055171615374435!3d50.643174279502446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32a7eca3fd0c3%3A0x983d5c6fb3850eeb!2s31+Rue+Voltaire%2C+59800+Lille!5e0!3m2!1sfr!2sfr!4v1495194510195" width="400" height="300" style="border:0" allowfullscreen></iframe>
           </div>
 
 
-      </div>
 
 
-  </div>
+
+  </article>
   <!--/Form with header-->
 
 
-</div>
+</section>
 
 </div>
 
@@ -226,14 +219,12 @@
 
 
 
-<!-- ***************************modal carte 1******************************** -->
-    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-  <div class="card">
+<!-- ***************************modal tripadvisor******************************** -->
+    <section class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="avis" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
     <div class="card-header light-green darken-1">
-      <h5 class="modal-title" id="exampleModalLabel">Vos avis</h5>
-
-
+      <h5 class="modal-title" id="avis">Vos avis</h5>
     </div>
     <div class="modal-body">
 <div id="TA_selfserveprop257" class="TA_selfserveprop"><ul id="3yYu3P" class="TA_links ZLUt9Jf"><li id="uwFUmkb3yxxK" class="UCSoIfjCWF"><a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=257&amp;locationId=5232732&amp;lang=fr&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
@@ -242,40 +233,40 @@
       <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
     </div>
-  </div>
-</div>
-</div>
+  </article>
+
+</section>
 
 <!-- *****************************************modal2************************* -->
 
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-<div class="card">
+<section class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="dispos" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
 <div class="card-header light-green darken-1">
-  <h5 class="modal-title" id="exampleModalLabel">Disponibilités</h5>
+  <h5 class="modal-title" id="dispos">Disponibilités</h5>
 
 
 </div>
 <div class="modal-body">
-  <iframe  class="hidden-sm-up" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FParis" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
-<iframe class="hidden-xs-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23009900&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis" style="border-width:0" width="450" height="300" frameborder="0" scrolling="no"></iframe>
+  <iframe  class="hidden-sm-up" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FParis" style="border-width:0" width="300" height="300"></iframe>
+<iframe class="hidden-xs-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23009900&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis" style="border-width:0" width="450" height="300"></iframe>
 </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
 </div>
-</div>
-</div>
-</div>
+
+</article>
+</section>
 
 
 
 <!-- **********************modal carte 3******************************************** -->
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-<div class="card">
+<section class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="coach" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
 <div class="card-header light-green darken-1">
-  <h5 class="modal-title" id="exampleModalLabel">Carolina : votre coach</h5>
+  <h5 class="modal-title" id="coach">Carolina : votre coach</h5>
 
 
 </div>
@@ -293,9 +284,9 @@
   <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
 </div>
-</div>
-</div>
-</div>
+</article>
+
+</section>
 
 
 
@@ -316,14 +307,14 @@
 
       </div>
     <!--Copyright-->
-    <div class="footer-copyright">
-        <div class="container-fluid">
-            © 2015 Copyright: <a href="https://github.com/Sanchez-Clement"> Clement Sanchez </a>
+    <div class="footer-copyright container-fluid">
+
+          <p> © 2017 Copyright: <a href="https://github.com/Sanchez-Clement"> Clement Sanchez </a></p> 
 
         </div>
     </div>
     <!--/.Copyright-->
-
+</footer>
 
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
