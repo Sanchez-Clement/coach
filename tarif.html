@@ -22,53 +22,56 @@
     <body>
       <header>
 
-<!-- *************************************************************************navbar********************************************************* -->
+        <!-- *************************************************************************navbar********************************************************* -->
 
-      <!--Navbar-->
-      <nav class="navbar navbar-toggleable-md navbar-dark green">
-          <div class="container">
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx12" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">Move your body</a>
-              <div class="collapse navbar-collapse" id="collapseEx12">
-                  <ul class="navbar-nav mr-auto">
-                      <li class="nav-item ">
-                          <a class="nav-link" href="index.html">Accueil </a>
-                      </li>
-                      <li class="nav-item active">
-                          <a class="nav-link" href="tarif.html">Tarifs<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
+              <!--Navbar-->
+              <nav class="navbar navbar-toggleable-md navbar-dark green">
+                  <div class="container">
+                      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx12" aria-controls="collapseEx12" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html">Move your body</a>
+                      <div class="collapse navbar-collapse" id="collapseEx12">
+                          <ul class="navbar-nav mr-auto">
+                              <li class="nav-item ">
+                                  <a class="nav-link" href="index.html">Accueil </a>
+                              </li>
+                              <li class="nav-item ">
+                                  <a class="nav-link" href="tarif.html">Tarifs</a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                              </li>
 
-                  </ul>
-                  <ul class="d-flex" id="reseaux">
-                    <li><a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook fa-2x social mr-2"></i></a>
-                    </li>
-                    <li><a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa fa-twitter fa-2x social mr-2"></i></a>
-                    </li>
-                    <li> <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus fa-2x social"></i></a>
-                    </li>
+                          </ul>
+                          <ul class="d-flex" id="reseaux">
+                            <li><a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook fa-2x social mr-2"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa fa-twitter fa-2x social mr-2"></i></a>
+                            </li>
+                            <li> <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus fa-2x social"></i></a>
+                            </li>
 
-                  </ul>
-                </div>
+                          </ul>
+                        </div>
 
 
-              </div>
-          </div>
-      </nav>
-<!-- ***********************************************************fin navbar********************************************************** -->
-</header>
+                      </div>
+
+              </nav>
+        <!-- ***********************************************************fin navbar********************************************************** -->
+        </header>
+
+
+
 
 <main class="container-fluid light-green lighten-5">
-  <div class="row justify-content-around">
+  <section class="row justify-content-around">
 
-
-  <div class="card text-center col-12 col-md-4 col-lg-3" id="debutant">
+  <!-- *******************************tarif débutant******************************* -->
+  <article class="card text-center col-12 col-md-4 col-lg-3" id="debutant">
   <div class="card-header light-green accent-1 z-depth-1">
-    <p>Pack Débutant</p>
+    <h3>Pack Débutant</h3>
   </div>
   <div class="card-block">
     <h4 class="card-title">Pour reprendre l'acitivé en douceur !</h4>
@@ -83,11 +86,13 @@
   <div class="card-footer text-muted">
     <p>25 € / mois</p>
   </div>
-</div>
+</article>
 
-<div class="card text-center col-12 col-md-4 col-lg-3" id="intermediaire">
+<!-- *****************************tarif intermediaire******************** -->
+
+<article class="card text-center col-12 col-md-4 col-lg-3" id="intermediaire">
 <div class="card-header light-green accent-1 z-depth-1">
-  <p>Pack Intermediaire</p>
+  <h3>Pack Intermediaire</h3>
 </div>
 <div class="card-block">
   <h4 class="card-title">Pour se maintenir en forme !</h4>
@@ -102,11 +107,12 @@
 <div class="card-footer text-muted">
   <p>40 € / mois</p>
 </div>
-</div>
+</article>
+<!-- *******************************tarif intensif******************************** -->
 
-<div class="card text-center col-12 col-md-4 col-lg-3" id="intensif">
+<article class="card text-center col-12 col-md-4 col-lg-3" id="intensif">
 <div class="card-header light-green accent-1 z-depth-1 ">
-  <p>Pack Intensif</p>
+  <h3>Pack Intensif</h3>
 </div>
 <div class="card-block">
   <h4 class="card-title">Pour une hygiène de vie parfaite !</h4>
@@ -121,29 +127,21 @@
 <div class="card-footer text-muted">
   <p>55 € / mois</p>
 </div>
-</div>
+</article>
 
 
 
-
-
-
-
-
-
-</div>
+</section>
 
 </main>
 
 
-<!-- ***************************modal carte 1******************************** -->
-    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-  <div class="card">
+<!-- ***************************modal tripadvisor******************************** -->
+    <section class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="avis" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
     <div class="card-header light-green darken-1">
-      <h5 class="modal-title" id="exampleModalLabel">Vos avis</h5>
-
-
+      <h5 class="modal-title" id="avis">Vos avis</h5>
     </div>
     <div class="modal-body">
 <div id="TA_selfserveprop257" class="TA_selfserveprop"><ul id="3yYu3P" class="TA_links ZLUt9Jf"><li id="uwFUmkb3yxxK" class="UCSoIfjCWF"><a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=257&amp;locationId=5232732&amp;lang=fr&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
@@ -152,40 +150,39 @@
       <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
     </div>
-  </div>
-</div>
-</div>
+  </article>
 
-<!-- *****************************************modal2************************* -->
+</section>
 
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-<div class="card">
+<!-- *****************************************modal disponibilité************************* -->
+
+<section class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="dispos" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
 <div class="card-header light-green darken-1">
-  <h5 class="modal-title" id="exampleModalLabel">Disponibilités</h5>
+  <h5 class="modal-title" id="dispos">Disponibilités</h5>
 
 
 </div>
 <div class="modal-body">
-  <iframe  class="hidden-sm-up" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FParis" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
-<iframe class="hidden-xs-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23009900&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis" style="border-width:0" width="450" height="300" frameborder="0" scrolling="no"></iframe>
+  <iframe  class="hidden-sm-up" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FParis" style="border-width:0" width="300" height="300"></iframe>
+<iframe class="hidden-xs-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23009900&amp;src=sanchez.clmnt%40gmail.com&amp;color=%231B887A&amp;src=en.french%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FParis" style="border-width:0" width="450" height="300"></iframe>
 </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
 </div>
-</div>
-</div>
-</div>
 
+</article>
+</section>
 
 
 <!-- **********************modal carte 3******************************************** -->
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-<div class="card">
+<section class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="coach" aria-hidden="true">
+<article class="modal-dialog card" role="document">
+
 <div class="card-header light-green darken-1">
-  <h5 class="modal-title" id="exampleModalLabel">Carolina : votre coach</h5>
+  <h5 class="modal-title" id="coach">Carolina : votre coach</h5>
 
 
 </div>
@@ -203,10 +200,9 @@
   <button type="button" class="btn btn-light-green" data-dismiss="modal">Close</button>
 
 </div>
-</div>
-</div>
-</div>
+</article>
 
+</section>
 
 
 
@@ -226,14 +222,14 @@
 
       </div>
     <!--Copyright-->
-    <div class="footer-copyright">
-        <div class="container-fluid">
-            © 2015 Copyright: <a href="https://github.com/Sanchez-Clement"> Clement Sanchez </a>
+    <div class="footer-copyright container-fluid">
+
+          <p> © 2017 Copyright: <a href="https://github.com/Sanchez-Clement"> Clement Sanchez </a></p>
 
         </div>
     </div>
     <!--/.Copyright-->
-
+</footer>
 
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
